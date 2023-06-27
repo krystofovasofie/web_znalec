@@ -12,9 +12,9 @@
 
           <ul>
             <li><a href="index.php">ÚVOD</a></li>
-            <li>/</li>
+            <span>/</span>
             <li><a href="posudky.php">POSUDKY</a></li>
-            <li>/</li>
+            <span>/</span>
             <li><a href="kontakt.php">KONTAKT</a></li>
           </ul>
         </nav>
@@ -48,7 +48,7 @@
         přenosové sítě.
       </p>
       <h3>Obor kybernetika, odvětví výpočetní technika.</h3>
-      <div id="line"></div>
+      <div class="line"></div>
       <img src="logo.png" alt="logo Komory soudních znalců ČR" id="logo">
     </main>
     <footer>
