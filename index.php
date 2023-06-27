@@ -6,7 +6,7 @@
   <div class="wrapper">
     <header>
       <div id="top-menu">
-        <a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a>
+        <strong><a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a></strong>
 
         <nav>
 
@@ -20,8 +20,11 @@
         </nav>
       </div>
       <div id="middle">
-        <h1>Znalecké služby</h1>
-        <h3>pro obory ekonomika, kybernetika, spoje</h3>
+        <strong>
+          <h1>Znalecké služby</h1>
+
+          <h3>pro obory ekonomika, kybernetika, spoje</h3>
+        </strong>
       </div>
     </header>
 
@@ -54,11 +57,11 @@
       <img src="images/logo.png" alt="logo Komory soudních znalců ČR" id="logo">
     </main>
     <footer>
-      <div>
-        Ing. Vladimír Kryštof, Bezručova čtvrť 839/15, 664 34 Kuřim,
-        <i class="fa-phone" aria-hidden="true"><a href="tel:+420 602 682 331"> +420 602 682 331</a>
-        </i>
-      </div>
+
+      Ing. Vladimír Kryštof, Bezručova čtvrť 839/15, 664 34 Kuřim,
+      <a href="tel:+420 602 682 331"><i class="fa fa-phone" aria-hidden="true"></i>+420 602 682 331</a>
+
+
     </footer>
   </div>
 </body>

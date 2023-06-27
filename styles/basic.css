@@ -5,7 +5,11 @@
 
 body {
   background-color: #f3efef;
-  /*font-size: 1.3vw;*/
-  text-align: block;
   color: #666;
-}/*# sourceMappingURL=basic.css.map */
+}
+
+p,
+h2,
+h3 {
+  padding: 8px;
+}

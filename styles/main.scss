@@ -1,16 +1,21 @@
-@import "colors";
-@import "variables";
-@import "basic";
+@import "reset.scss";
+@import "colors.scss";
+@import "variables.scss";
+@import "basic.scss";
 
 header {
   background: url("../images/fujitsu.jpg");
-  height: $container-width;
+
+  height: 350px;
   color: white;
+  background-size: cover;
+  //opacity: 0.75;
 
   #top-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 20px 0px 20px;
   }
 
   ul li {
@@ -32,6 +37,7 @@ header {
 }
 
 main {
+  padding-top: 15px;
   max-width: 750px;
   margin: 0 auto;
 
@@ -51,5 +57,10 @@ main {
 }
 
 footer {
+  height: 50px;
   background-color: $footer-color;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

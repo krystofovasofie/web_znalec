@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -89,7 +90,6 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -104,21 +104,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -126,86 +122,7 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-* {
-  font-family: "Metropolis", sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f3efef;
-  color: #666;
-}
-
-p,
-h2,
-h3 {
-  padding: 8px;
-}
-
-header {
-  background: url("../images/fujitsu.jpg");
-  height: 350px;
-  color: white;
-  background-size: cover;
-}
-
-header #top-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 20px 0px 20px;
-}
-
-header ul li {
-  list-style: none;
-  display: inline;
-  margin: 3px;
-}
-
-header h3 {
-  text-transform: uppercase;
-}
-
-header a {
-  color: white;
-  text-decoration: none;
-}
-
-header #middle {
-  text-align: center;
-}
-
-main {
-  padding-top: 15px;
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-main h2 {
-  color: #393939;
-}
-
-main #logo {
-  height: 100px;
-  padding: 0px 300px;
-}
-
-.line {
-  border-bottom: #393939 solid 0.5px;
-  margin: 40px 0px;
-}
-
-footer {
-  height: 50px;
-  background-color: rgba(204, 204, 204, 0.4);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
