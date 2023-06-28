@@ -138,14 +138,34 @@ table {
 }
 
 body {
-  background-color: #f3efef;
+  background-color: #f3f3f3;
   color: #666;
 }
 
-p,
-h2,
+p {
+  font-size: 17px;
+  padding: 9px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 27px;
+  padding: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+
 h3 {
-  padding: 8px;
+  font-size: 18px;
+  padding: 12px;
+  text-align: left;
 }
 
 header {
@@ -154,6 +174,9 @@ header {
   color: white;
   background-size: cover;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header::before {
@@ -163,21 +186,29 @@ header::before {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.181);
+  background-color: rgba(25, 24, 36, 0.316);
+}
+
+header > * {
+  position: relative;
 }
 
 header #top-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 20px 0px 20px;
-  position: relative;
+  padding: 40px 30px 0px 30px;
+  font-weight: 500;
 }
 
 header ul li {
   list-style: none;
   display: inline;
   margin: 3px;
+}
+
+header ul li a {
+  text-transform: uppercase;
 }
 
 header h3 {
@@ -189,40 +220,64 @@ header a {
   text-decoration: none;
 }
 
-header #middle {
-  text-align: center;
-  position: relative;
-}
-
-header span {
-  position: relative;
+header .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 main {
   padding-top: 15px;
   max-width: 750px;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+
+main.center {
+  text-align: center;
 }
 
 main h2 {
   color: #393939;
 }
 
-main #logo {
-  height: 100px;
-  padding: 0px 300px;
+main .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 40px;
+  transition: transform 0.2s;
 }
 
-.line {
-  border-bottom: #393939 solid 0.5px;
-  margin: 40px 0px;
+main .bottom:hover {
+  transform: scale(1.1);
+}
+
+main .bottom #logo {
+  height: 100px;
+}
+
+main .line {
+  border-bottom: #3939394d solid 0.3px;
+  margin: 25px 0px;
 }
 
 footer {
-  height: 50px;
+  height: 65px;
   background-color: rgba(204, 204, 204, 0.4);
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: white;
 }

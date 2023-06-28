@@ -6,22 +6,24 @@
   <div class="wrapper">
     <header>
       <div id="top-menu">
-        <a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a>
+        <strong><a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a></strong>
 
         <nav>
 
           <ul>
-            <li><a href="index.php">ÚVOD</a></li>
-            <li>/</li>
-            <li><a href="posudky.php">POSUDKY</a></li>
-            <li>/</li>
-            <li><a href="kontakt.php">KONTAKT</a></li>
+            <li><a href="index.php">úvod</a></li>
+            <span>/</span>
+            <li><a href="posudky.php">posudky</a></li>
+            <span>/</span>
+            <li><a href="kontakt.php">kontakt</a></li>
           </ul>
         </nav>
       </div>
-      <h1>Kontakt</h1>
-
-
+      <div class="middle">
+        <strong>
+          <h1>Kontakt</h1>
+        </strong>
+      </div>
     </header>
 
     <main> <!--kontakty-->

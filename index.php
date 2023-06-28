@@ -11,15 +11,15 @@
         <nav>
 
           <ul>
-            <li><a href="index.php">ÚVOD</a></li>
+            <li><a href="index.php">úvod</a></li>
             <span>/</span>
-            <li><a href="posudky.php">POSUDKY</a></li>
+            <li><a href="posudky.php">posudky</a></li>
             <span>/</span>
-            <li><a href="kontakt.php">KONTAKT</a></li>
+            <li><a href="kontakt.php">kontakt</a></li>
           </ul>
         </nav>
       </div>
-      <div id="middle">
+      <div class="middle">
         <strong>
           <h1>Znalecké služby</h1>
 
@@ -54,7 +54,9 @@
       </p>
       <h3>Obor kybernetika, odvětví výpočetní technika.</h3>
       <div class="line"></div>
-      <img src="images/logo.png" alt="logo Komory soudních znalců ČR" id="logo">
+      <div class="bottom">
+        <a href="https://kszcr.cz/"><img src="images/logo.png" alt="logo Komory soudních znalců ČR" id="logo"></a>
+      </div>
     </main>
     <footer>
 
