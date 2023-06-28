@@ -149,10 +149,21 @@ h3 {
 }
 
 header {
-  background: url("../images/fujitsu.jpg");
+  background-image: url("../images/fujitsu.jpg");
   height: 350px;
   color: white;
   background-size: cover;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.181);
 }
 
 header #top-menu {
@@ -160,6 +171,7 @@ header #top-menu {
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px 0px 20px;
+  position: relative;
 }
 
 header ul li {
@@ -179,6 +191,11 @@ header a {
 
 header #middle {
   text-align: center;
+  position: relative;
+}
+
+header span {
+  position: relative;
 }
 
 main {

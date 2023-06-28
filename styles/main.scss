@@ -4,18 +4,29 @@
 @import "basic.scss";
 
 header {
-  background: url("../images/fujitsu.jpg");
-
+  background-image: url("../images/fujitsu.jpg");
   height: 350px;
   color: white;
   background-size: cover;
-  //opacity: 0.75;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.181);
+  }
 
   #top-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px 0px 20px;
+    position: relative;
+    //color: white;
   }
 
   ul li {
@@ -33,6 +44,11 @@ header {
   }
   #middle {
     text-align: center;
+    // color: white;
+    position: relative;
+  }
+  span {
+    position: relative;
   }
 }
 
