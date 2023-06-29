@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <?php include 'header.php' ?>
 
 <body>
@@ -26,8 +26,8 @@
       </div>
     </header>
 
-    <main> <!--kontakty-->
-      <div>
+    <main class="main3"> <!--kontakty-->
+      <div class="contacts">
         <p><i class="fa fa-address-card-o" aria-hidden="true"></i> Ing. Vladimír Kryštof</p>
         <p>Bezručova čtvrť 839/15, 664 34 Kuřim</p>
         <p>IČO: 75608472</p>
@@ -39,8 +39,8 @@
 
       </div>
     </main>
-    <footer> <!--volny, protoze kontakt nahore-->
-      <div> </div>
+    <footer id="no_footer">
+      <div>Web created by Sofie Kryštofová</div><!--volny, protoze kontakt nahore-->
     </footer>
   </div>
 </body>

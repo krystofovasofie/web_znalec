@@ -144,33 +144,33 @@ body {
 
 p {
   font-size: 17px;
-  padding: 9px;
+  padding: 3px 0px 9px 0px;
   font-weight: 400;
   line-height: 1.6;
 }
 
 h1 {
-  font-size: 65px;
-  font-weight: 500;
+  font-size: 70px;
+  font-weight: 400;
   padding: 15px;
 }
 
 h2 {
   font-size: 27px;
-  padding: 17px;
+  padding: 18px 0px 22px 0px;
   font-weight: 600;
   text-align: center;
 }
 
 h3 {
   font-size: 18px;
-  padding: 12px;
+  padding: 13px 0px;
   text-align: left;
 }
 
 header {
   background-image: url("../images/fujitsu.jpg");
-  height: 350px;
+  height: 340px;
   color: white;
   background-size: cover;
   position: relative;
@@ -186,7 +186,7 @@ header::before {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(25, 24, 36, 0.316);
+  background-color: rgba(25, 24, 36, 0.36);
 }
 
 header > * {
@@ -201,23 +201,31 @@ header #top-menu {
   font-weight: 500;
 }
 
-header ul li {
+header #top-menu ul li,
+header #top-menu span {
   list-style: none;
   display: inline;
-  margin: 3px;
+  margin: 2px;
+  color: #e6e6e6;
 }
 
-header ul li a {
+header #top-menu ul li a,
+header #top-menu span a {
   text-transform: uppercase;
+  font-weight: 500;
+  color: #e6e6e6;
 }
 
-header h3 {
-  text-transform: uppercase;
+header #top-menu ul li a:hover,
+header #top-menu span a:hover {
+  color: white;
 }
 
 header a {
   color: white;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
 }
 
 header .middle {
@@ -227,10 +235,16 @@ header .middle {
   flex-grow: 1;
 }
 
+header .middle h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
 main {
   padding-top: 15px;
   max-width: 750px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 main.center {
@@ -280,4 +294,27 @@ footer a {
 
 footer a:hover {
   color: white;
+}
+
+#no_footer {
+  height: 60px;
+}
+
+.main3 {
+  display: flex;
+}
+
+.main3 .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main3 .contacts > * {
+  position: relative;
+}
+
+.main3 .contacts p {
+  padding: 4px;
 }
