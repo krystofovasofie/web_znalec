@@ -7,7 +7,7 @@
 <body>
   <div class="wrapper">
     <header>
-      <div id="top-menu">
+      <div id="top_menu">
         <strong><a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a></strong>
 
         <nav>

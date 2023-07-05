@@ -5,7 +5,7 @@
 <body>
   <div class="wrapper">
     <header>
-      <div id="top-menu">
+      <div id="top_menu">
         <strong><a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a></strong>
 
         <nav>
@@ -61,7 +61,8 @@
     <footer>
 
       Ing. Vladimír Kryštof, Bezručova čtvrť 839/15, 664 34 Kuřim,
-      <a href="tel:+420 602 682 331"><i class="fa fa-phone" aria-hidden="true"></i>+420 602 682 331</a>
+      <i class="fa fa-phone" aria-hidden="true"><a href="tel:+420 602 682 331"> +420 602 682 331</a>
+      </i>
 
 
     </footer>

@@ -143,7 +143,7 @@ body {
 }
 
 p {
-  font-size: 17px;
+  font-size: 20px;
   padding: 3px 0px 9px 0px;
   font-weight: 400;
   line-height: 1.6;
@@ -156,14 +156,14 @@ h1 {
 }
 
 h2 {
-  font-size: 27px;
-  padding: 18px 0px 22px 0px;
+  font-size: 30px;
+  padding: 22px 0px 22px 0px;
   font-weight: 600;
   text-align: center;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
   padding: 13px 0px;
   text-align: left;
 }
@@ -193,7 +193,7 @@ header > * {
   position: relative;
 }
 
-header #top-menu {
+header #top_menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -201,23 +201,23 @@ header #top-menu {
   font-weight: 500;
 }
 
-header #top-menu ul li,
-header #top-menu span {
+header #top_menu ul li,
+header #top_menu span {
   list-style: none;
   display: inline;
   margin: 2px;
   color: #e6e6e6;
 }
 
-header #top-menu ul li a,
-header #top-menu span a {
+header #top_menu ul li a,
+header #top_menu span a {
   text-transform: uppercase;
   font-weight: 500;
   color: #e6e6e6;
 }
 
-header #top-menu ul li a:hover,
-header #top-menu span a:hover {
+header #top_menu ul li a:hover,
+header #top_menu span a:hover {
   color: white;
 }
 
@@ -239,6 +239,12 @@ header .middle h3 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 300;
+}
+
+.wrapper {
+  position: relative;
+  padding-bottom: 100px;
+  min-height: 100vh;
 }
 
 main {
@@ -284,6 +290,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 footer a {
@@ -296,25 +306,34 @@ footer a:hover {
   color: white;
 }
 
+.main3 {
+  max-width: 480px;
+}
+
+.main3 .row {
+  display: flex;
+  margin: 12px 0;
+}
+
+.main3 .row .col_1 {
+  padding: 2px 18px 0;
+  font-size: 20px;
+}
+
+.main3 .row a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 500;
+}
+
+.main3 .row a:hover {
+  color: #393939;
+}
+
+.main3 .row p {
+  line-height: 1;
+}
+
 #no_footer {
   height: 60px;
-}
-
-.main3 {
-  display: flex;
-}
-
-.main3 .contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main3 .contacts > * {
-  position: relative;
-}
-
-.main3 .contacts p {
-  padding: 4px;
 }
