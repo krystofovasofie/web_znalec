@@ -157,7 +157,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  padding: 22px 0px 22px 0px;
+  padding: 24px 0px 24px 0px;
   font-weight: 600;
   text-align: center;
 }
@@ -221,11 +221,16 @@ header #top_menu span a:hover {
   color: white;
 }
 
+header #top_menu ul li a.active,
+header #top_menu span a.active {
+  color: white;
+}
+
 header a {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 header .middle {
@@ -249,7 +254,7 @@ header .middle h3 {
 
 main {
   padding-top: 15px;
-  max-width: 750px;
+  max-width: 800px;
   margin: 30px auto;
 }
 
