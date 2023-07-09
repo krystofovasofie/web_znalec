@@ -150,7 +150,7 @@ p {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 74px;
   font-weight: 400;
   padding: 15px;
 }
@@ -166,6 +166,18 @@ h3 {
   font-size: 22px;
   padding: 13px 0px;
   text-align: left;
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 20px;
+  }
 }
 
 header {
@@ -199,6 +211,10 @@ header #top_menu {
   align-items: center;
   padding: 40px 30px 0px 30px;
   font-weight: 500;
+}
+
+header #top_menu #nav_bar {
+  display: none;
 }
 
 header #top_menu ul li,
@@ -341,4 +357,19 @@ footer a:hover {
 
 #no_footer {
   height: 60px;
+}
+
+@media only screen and (max-width: 650px) {
+  #top_menu {
+    display: flex;
+  }
+  #top_menu a {
+    font-size: 16px;
+  }
+  #top_menu #nav_bar {
+    display: block;
+  }
+  .middle {
+    text-align: center;
+  }
 }

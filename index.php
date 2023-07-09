@@ -9,6 +9,7 @@
         <strong><a href="index.php" id="name">Ing. Vladimír Kryštof, znalec</a></strong>
 
         <nav>
+          <div id="nav_bar"><i class="fa fa-bars" aria-hidden="true"></i></div>
 
           <ul>
             <li><a href="index.php">úvod</a></li>
