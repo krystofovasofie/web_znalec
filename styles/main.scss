@@ -168,7 +168,7 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
-  #top_menu {
+  header #top_menu {
     display: flex;
 
     a {
@@ -177,8 +177,21 @@ footer {
     #nav_bar {
       display: block;
     }
+    nav ul {
+      display: none;
+    }
   }
   .middle {
     text-align: center;
+  }
+
+  .line {
+    margin: 25px 8px;
+  }
+  footer {
+    flex-direction: column;
+    line-height: 1.8;
+    height: 80px;
+    padding: 8px;
   }
 }
