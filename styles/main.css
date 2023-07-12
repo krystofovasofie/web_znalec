@@ -219,32 +219,40 @@ header #top_menu {
   font-weight: 500;
 }
 
-header #top_menu #nav_bar {
+header #top_menu .hamburger {
   display: none;
 }
 
-header #top_menu ul li,
-header #top_menu span {
+header #top_menu .close_menu {
+  display: none;
+}
+
+header #top_menu ul.menu {
+  display: block;
+}
+
+header #top_menu ul.menu li,
+header #top_menu ul.menu span {
   list-style: none;
   display: inline;
   margin: 2px;
   color: #e6e6e6;
 }
 
-header #top_menu ul li a,
-header #top_menu span a {
+header #top_menu ul.menu li a,
+header #top_menu ul.menu span a {
   text-transform: uppercase;
   font-weight: 500;
   color: #e6e6e6;
 }
 
-header #top_menu ul li a:hover,
-header #top_menu span a:hover {
+header #top_menu ul.menu li a:hover,
+header #top_menu ul.menu span a:hover {
   color: white;
 }
 
-header #top_menu ul li a.active,
-header #top_menu span a.active {
+header #top_menu ul.menu li a.active,
+header #top_menu ul.menu span a.active {
   color: white;
 }
 
@@ -372,11 +380,44 @@ footer a:hover {
   header #top_menu a {
     font-size: 16px;
   }
-  header #top_menu #nav_bar {
+  header #top_menu .hamburger {
     display: block;
   }
-  header #top_menu nav ul {
+  header #top_menu ul.menu {
     display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    padding-top: 50px;
+    z-index: 4;
+  }
+  header #top_menu ul.menu .close_menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: black;
+  }
+  header #top_menu ul.menu span {
+    display: none;
+  }
+  header #top_menu ul.menu li {
+    display: block;
+    padding: 12px;
+    margin: 0 10px;
+    font-size: 35px;
+    line-height: 35px;
+    border-top: 1px solid grey;
+  }
+  header #top_menu ul.menu li:last-child {
+    border-bottom: 1px solid grey;
+  }
+  header #top_menu ul.menu li a {
+    color: black;
   }
   .middle {
     text-align: center;

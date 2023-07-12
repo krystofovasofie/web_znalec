@@ -34,27 +34,35 @@ header {
     padding: 40px 30px 0px 30px;
     font-weight: 500;
 
-    #nav_bar {
+    .hamburger {
       display: none;
     }
 
-    ul li,
-    span {
-      list-style: none;
-      display: inline;
-      margin: 2px;
-      color: $top-line;
+    .close_menu {
+      display: none;
+    }
 
-      a {
-        text-transform: uppercase;
-        font-weight: 500;
+    ul.menu {
+      display: block;
+
+      li,
+      span {
+        list-style: none;
+        display: inline;
+        margin: 2px;
         color: $top-line;
 
-        &:hover {
-          color: $white;
-        }
-        &.active {
-          color: $white;
+        a {
+          text-transform: uppercase;
+          font-weight: 500;
+          color: $top-line;
+
+          &:hover {
+            color: $white;
+          }
+          &.active {
+            color: $white;
+          }
         }
       }
     }
@@ -174,11 +182,46 @@ footer {
     a {
       font-size: 16px;
     }
-    #nav_bar {
+    .hamburger {
       display: block;
     }
-    nav ul {
+    ul.menu {
       display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: $white;
+      padding-top: 50px;
+      z-index: 4;
+
+      .close_menu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 25px;
+        color: black;
+      }
+      span {
+        display: none;
+      }
+      li {
+        display: block;
+        padding: 12px;
+        margin: 0 10px;
+        font-size: 35px;
+        line-height: 35px;
+        border-top: 1px solid grey;
+        &:last-child {
+          border-bottom: 1px solid grey;
+        }
+
+        a {
+          color: black;
+        }
+      }
     }
   }
   .middle {
