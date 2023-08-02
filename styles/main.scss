@@ -175,7 +175,7 @@ footer {
   height: 60px;
 }
 
-@media (min-width: 651px) and (max-width: 800px) {
+@media (min-width: 651px) and (max-width: 850px) {
   main {
     max-width: 630px;
   }
@@ -187,9 +187,6 @@ footer {
 
     a {
       font-size: 16px;
-      &:hover {
-        color: $h-color;
-      }
     }
     .hamburger {
       display: block;
@@ -230,6 +227,9 @@ footer {
 
         a {
           color: $h-color;
+          &:hover {
+            color: $h-color;
+          }
         }
       }
     }

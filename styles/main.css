@@ -373,7 +373,7 @@ footer a:hover {
   height: 60px;
 }
 
-@media (min-width: 651px) and (max-width: 800px) {
+@media (min-width: 651px) and (max-width: 850px) {
   main {
     max-width: 630px;
   }
@@ -385,9 +385,6 @@ footer a:hover {
   }
   header #top_menu a {
     font-size: 16px;
-  }
-  header #top_menu a:hover {
-    color: #393939;
   }
   header #top_menu .hamburger {
     display: block;
@@ -427,6 +424,9 @@ footer a:hover {
     border-bottom: 1px solid grey;
   }
   header #top_menu ul.menu li a {
+    color: #393939;
+  }
+  header #top_menu ul.menu li a:hover {
     color: #393939;
   }
   .middle {
