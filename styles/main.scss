@@ -61,7 +61,7 @@ header {
             color: $white;
           }
           &.active {
-            color: $white;
+            text-decoration: underline;
           }
         }
       }

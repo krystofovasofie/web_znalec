@@ -253,7 +253,7 @@ header #top_menu ul.menu span a:hover {
 
 header #top_menu ul.menu li a.active,
 header #top_menu ul.menu span a.active {
-  color: white;
+  text-decoration: underline;
 }
 
 header a {
