@@ -156,6 +156,7 @@ footer {
     .col_1 {
       padding: 2px 18px 0;
       font-size: 20px;
+      width: 68px;
     }
     a {
       text-decoration: none;
@@ -246,5 +247,9 @@ footer {
     line-height: 1.8;
     height: 80px;
     padding: 8px;
+  }
+
+  .main3 .row .col_1 {
+    width: 48px;
   }
 }
