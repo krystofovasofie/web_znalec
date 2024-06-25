@@ -13,7 +13,7 @@
       </div>
     </header>
 
-    <main class="main3"> <!--kontakty-->
+    <main class="main3">
 
       <div class="row">
         <div class="col_1"><i class="fa fa-address-card-o" aria-hidden="true"></i></div>
@@ -27,8 +27,6 @@
         <div class="col_1"><i class="fa fa-phone" aria-hidden="true"></i></div>
         <div class="col_2">
           <p><a href="tel:+420 602 682 331"> +420 602 682 331</a></p>
-
-          </i>
         </div>
       </div>
       <div class="row">
@@ -49,7 +47,7 @@
 
     </main>
     <footer id="no_footer">
-      <div>Web created by Sofie Kryštofová</div><!--volny, protoze kontakt nahore-->
+      <div>Web created by Sofie Kryštofová</div>
     </footer>
   </div>
 </body>

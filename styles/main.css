@@ -172,20 +172,22 @@ h3 {
   p {
     padding: 3px 13px 8px 13px;
   }
+
   h1 {
     font-size: 40px;
     padding: 15px;
   }
+
   h2 {
     font-size: 22px;
     padding: 24px 8px 24px 0px;
   }
+
   h3 {
     font-size: 20px;
     padding: 13px 13px;
   }
 }
-
 header {
   background-image: url("../images/fujitsu.jpg");
   height: 340px;
@@ -196,7 +198,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
-
 header::before {
   content: "";
   position: absolute;
@@ -206,11 +207,9 @@ header::before {
   left: 0px;
   background-color: rgba(25, 24, 36, 0.36);
 }
-
 header > * {
   position: relative;
 }
-
 header #top_menu {
   display: flex;
   justify-content: space-between;
@@ -218,19 +217,15 @@ header #top_menu {
   padding: 40px 30px 0px 30px;
   font-weight: 500;
 }
-
 header #top_menu .hamburger {
   display: none;
 }
-
 header #top_menu .close_menu {
   display: none;
 }
-
 header #top_menu ul.menu {
   display: block;
 }
-
 header #top_menu ul.menu li,
 header #top_menu ul.menu span {
   list-style: none;
@@ -238,38 +233,32 @@ header #top_menu ul.menu span {
   margin: 2px;
   color: #e6e6e6;
 }
-
 header #top_menu ul.menu li a,
 header #top_menu ul.menu span a {
   text-transform: uppercase;
   font-weight: 500;
   color: #e6e6e6;
 }
-
 header #top_menu ul.menu li a:hover,
 header #top_menu ul.menu span a:hover {
   color: white;
 }
-
 header #top_menu ul.menu li a.active,
 header #top_menu ul.menu span a.active {
   text-decoration: underline;
 }
-
 header a {
   color: white;
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
 }
-
 header .middle {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
-
 header .middle h3 {
   text-transform: uppercase;
   text-align: center;
@@ -287,15 +276,12 @@ main {
   max-width: 800px;
   margin: 30px auto;
 }
-
 main.center {
   text-align: center;
 }
-
 main h2 {
   color: #393939;
 }
-
 main .bottom {
   display: flex;
   justify-content: center;
@@ -304,15 +290,12 @@ main .bottom {
   margin: 40px;
   transition: transform 0.2s;
 }
-
 main .bottom:hover {
   transform: scale(1.1);
 }
-
 main .bottom #logo {
   height: 100px;
 }
-
 main .line {
   border-bottom: #3939394d solid 0.3px;
   margin: 25px 0px;
@@ -330,13 +313,12 @@ footer {
   left: 0;
   right: 0;
 }
-
 footer a {
   text-decoration: none;
   color: #666;
   font-weight: 500;
+  margin-left: 10px;
 }
-
 footer a:hover {
   color: #393939;
 }
@@ -344,28 +326,23 @@ footer a:hover {
 .main3 {
   max-width: 480px;
 }
-
 .main3 .row {
   display: flex;
   margin: 12px 0;
 }
-
 .main3 .row .col_1 {
   padding: 2px 18px 0;
   font-size: 20px;
   width: 68px;
 }
-
 .main3 .row a {
   text-decoration: none;
   color: #666;
   font-weight: 500;
 }
-
 .main3 .row a:hover {
   color: #393939;
 }
-
 .main3 .row p {
   line-height: 1;
 }
@@ -379,7 +356,6 @@ footer a:hover {
     max-width: 630px;
   }
 }
-
 @media only screen and (max-width: 650px) {
   header #top_menu {
     display: flex;
@@ -430,18 +406,22 @@ footer a:hover {
   header #top_menu ul.menu li a:hover {
     color: #393939;
   }
+
   .middle {
     text-align: center;
   }
+
   .line {
     margin: 25px 8px;
   }
+
   footer {
     flex-direction: column;
     line-height: 1.8;
     height: 80px;
     padding: 8px;
   }
+
   .main3 .row .col_1 {
     width: 48px;
   }
